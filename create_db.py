@@ -49,6 +49,8 @@ tar_dir = [
 docs = []
 for dir_path in tar_dir:
     docs.extend(get_text(dir_path))
+for filename in os.listdir('/home/xlab-app-center'):
+    print(filename)
 
 # 对文本进行分块
 text_splitter = RecursiveCharacterTextSplitter(
