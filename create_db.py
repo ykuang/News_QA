@@ -42,15 +42,15 @@ def get_text(dir_path):
 
 # 目标文件夹
 tar_dir = [
-    "/home/xlab-app-center/News_QA"
+    "/home/xlab-app-center/data"
 ]
 
 # 加载目标文件
 docs = []
 for dir_path in tar_dir:
     docs.extend(get_text(dir_path))
-for filename in os.listdir('/home/xlab-app-center'):
-    print(filename)
+#for filename in os.listdir('/home/xlab-app-center'):
+#    print(filename)
 
 # 对文本进行分块
 text_splitter = RecursiveCharacterTextSplitter(
