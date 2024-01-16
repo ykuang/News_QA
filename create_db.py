@@ -42,7 +42,7 @@ def get_text(dir_path):
 
 # 目标文件夹
 tar_dir = [
-    "/home/xlab-app-center/news_qa"
+    "/home/xlab-app-center/News_QA"
 ]
 
 # 加载目标文件
